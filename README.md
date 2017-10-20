@@ -2,9 +2,18 @@
 
 Helps use multiple accounts on Heroku.
 
+## Motivation
+
+Forked from: https://github.com/ddollar/heroku-accounts
+
+But the original author stopped maintaining it, because he started a Heroku competitor called Convox.
+
+I'm also not promising to maintain this. But at least this has a README :)
+
+
 ## Installation
 
-    $ heroku plugins:install git://github.com/ddollar/heroku-accounts.git
+    $ heroku plugins:install git://github.com/freeauto/heroku-accounts.git
 
 ## Usage
 
@@ -12,7 +21,7 @@ To add accounts:
 
     $ heroku accounts:add personal
     Enter your Heroku credentials.
-    Email: david@heroku.com
+    Email: <your email>
     Password: ******
 
     Add the following to your ~/.ssh/config
